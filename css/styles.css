@@ -162,11 +162,11 @@ img {
 /* hero */
 .hero {
 	background-color: var(--hero-footer-bgr-color);
-	background-image: url(../images/index/hero-bgr.jpg);
+	background-image: url(../images/index/hero-bgr.jpg),
+		linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
+	background-size: 1600px;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
-
 	padding-top: 200px;
 	padding-bottom: 200px;
 }
@@ -300,14 +300,12 @@ img {
 	text-align: center;
 	letter-spacing: 0.03em;
 }
-.social-links-box {
-	padding-bottom: 30px;
-}
 .social-list {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	gap: 10px;
+	padding-bottom: 30px;
 }
 .socia-link {
 	display: flex;
@@ -439,8 +437,7 @@ img {
 .footer-social-icon {
 	fill: var(--white-bgr-text-color);
 }
-.footer-socia-link:hover .social-icon,
-.footer-socia-link:focus .social-icon {
+.footer-socia-link:hover .social-icon {
 	fill: var(--white-bgr-text-color);
 }
 
@@ -487,8 +484,11 @@ img {
 	border: 1px solid #eeeeee;
 	border-top: none;
 }
-.portfolio-item:hover,
-.portfolio-item:focus {
+.portfolio-link {
+	display: block;
+}
+.portfolio-link:hover,
+.portfolio-link:focus {
 	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .portfolio-title {
