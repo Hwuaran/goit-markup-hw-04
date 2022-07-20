@@ -161,10 +161,12 @@ img {
 
 /* hero */
 .hero {
+	width: 1600px;
+	margin-left: auto;
+	margin-right: auto;
 	background-color: var(--hero-footer-bgr-color);
-	background-image: url(../images/index/hero-bgr.jpg),
-		linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
-	background-size: 1600px;
+	background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+		url(../images/index/hero-bgr.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	padding-top: 200px;
@@ -299,13 +301,14 @@ img {
 	line-height: 1.9;
 	text-align: center;
 	letter-spacing: 0.03em;
+
+	margin-bottom: 16px;
 }
 .social-list {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	gap: 10px;
-	padding-bottom: 30px;
 }
 .socia-link {
 	display: flex;
