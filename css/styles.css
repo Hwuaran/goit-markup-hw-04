@@ -274,7 +274,7 @@ img {
 }
 .name-wrapper {
 	padding-top: 30px;
-	padding-bottom: 16px;
+	padding-bottom: 30px;
 	padding-left: 5px;
 	padding-right: 5px;
 }
@@ -298,7 +298,7 @@ img {
 .name-text {
 	color: var(--gray-text-color);
 	font-size: 16px;
-	line-height: 1.9;
+	line-height: ;
 	text-align: center;
 	letter-spacing: 0.03em;
 
